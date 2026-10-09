@@ -139,6 +139,23 @@ The evidence does not confirm:
 
 Additional endpoint telemetry and corroborating logs are required to resolve these questions.
 
+## Supporting Screenshots
+
+### DNS Resolution
+![DNS resolution](../screenshots/p1.png)
+DNS evidence linking the investigated domain to the external IP address.
+
+### TLS Client Hello
+![TLS Client Hello](../screenshots/p2.png)
+TLS Client Hello showing the investigated domain in the SNI field.
+
+### HTTP POST Request
+![HTTP POST request](../screenshots/p3.png)
+HTTP request to the /api/set_agent endpoint.
+
+### HTTP Response
+![HTTP response](../screenshots/p4.png)
+Server response containing the ZIP archive error.
 ## Conclusion
 
 The documented traffic links workstation `10.1.21.58` to suspicious external infrastructure through DNS, TLS and repeated HTTP activity.
