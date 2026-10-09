@@ -11,6 +11,11 @@ Incident Response & Defense: Log Analysis, SIEM Monitoring, Threat Hunting, Linu
 Tools & Technologies: Wireshark, Nmap, Burp Suite, Metasploit, Linux CLI, Python, AWS CLI, Splunk.
 Contact & Professional Links
 
+## Full Investigation (report no.1)
+
+[Read the investigation report](docs/investigation-report.md)
+
+
 LinkedIn: www.linkedin.com/in/mohsena-alhajeri-6b2a0a442
 
 Email: m8.alhajeri@gmail.com
