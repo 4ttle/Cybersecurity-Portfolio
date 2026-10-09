@@ -13,7 +13,7 @@ Contact & Professional Links
 
 ## Full Investigation (report no.1)
 
-[Read the investigation report](docs/investigation-report.md)
+[Read the investigation report](soc-network-traffic-investigation/docs/investigation-report.md)
 
 
 LinkedIn: www.linkedin.com/in/mohsena-alhajeri-6b2a0a442
