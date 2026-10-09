@@ -15,6 +15,7 @@ The malware association provides investigative context; it does not independentl
 ## Tools and Methods
 
 | Tool or framework | Purpose |
+
 | Wireshark | Analyze DNS, TCP, TLS and HTTP traffic |
 | VirusTotal | Enrich domain and IP indicators |
 | MISP | Record indicators and supporting context |
@@ -66,6 +67,7 @@ No malicious file was recovered during the documented analysis, and no payload h
 Times below are recorded in UTC in the original investigation.
 
 | Time | Frame | Observation |
+
 | 23:05:36.218945 | 23721 | Workstation queries the suspicious domain |
 | 23:05:36.253143 | 23723 | DNS response returns the external IP |
 | 23:05:36.253555 | 23724 | Workstation initiates TCP connection to port 443 |
@@ -79,6 +81,7 @@ The sequence connects DNS resolution with subsequent TLS and HTTP activity. It d
 ## Network Indicators
 
 | Indicator | Type | Supporting evidence |
+
 | `whitepepper[.]su` | Domain | DNS queries, TLS SNI and HTTP requests |
 | `153.92.1[.]49` | IPv4 address | DNS response and subsequent connections |
 | `hxxp://whitepepper[.]su/api/set_agent` | URL | Repeated HTTP requests |
